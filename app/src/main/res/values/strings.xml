@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AmshApp</string>
+
+    <!-- Login -->
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Sign in to continue</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Log in</string>
+    <string name="demo_credentials_hint">Demo: user@example.com / password</string>
+
+    <!-- Main list -->
+    <string name="list_title">Items</string>
+
+    <!-- Errors -->
+    <string name="error_invalid_credentials">Invalid email or password</string>
+    <string name="error_network">Network error, please try again</string>
+</resources>
