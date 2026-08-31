@@ -15,6 +15,7 @@ object ApiClient {
 
     private val client = OkHttpClient.Builder()
         .addInterceptor(logging)
+        .addInterceptor(AuthInterceptor())
         .connectTimeout(30, TimeUnit.SECONDS)
         .readTimeout(30, TimeUnit.SECONDS)
         .build()
