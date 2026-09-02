@@ -1,0 +1,2 @@
+rootProject.name = 'AmshApp'
+include ':app'
